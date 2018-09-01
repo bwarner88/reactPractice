@@ -1,21 +1,6 @@
 import React from "react";
-import List from "./components/List";
+import Calculator from "./components/Calculator";
 
-const groceries = [
-  {
-  id: 1,
-  name: "Ashley",
-  },
-  {
-    id: 2,
-    name: "Brian"
-  },
-  {
-    id: 3,
-    name: "your mom"
-  }
-];
-
-const App = () => <List groceries={groceries} />;
+const App = () => <Calculator />;
 
 export default App;
